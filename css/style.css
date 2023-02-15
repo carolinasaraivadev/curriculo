@@ -1,0 +1,7 @@
+@import 'global/global.css';
+@import 'global/fonts.css';
+@import 'global/header.css';
+@import 'conteudo/introducao.css';
+@import 'conteudo/cursos.css';
+@import 'conteudo/conclusao.css';
+@import 'conteudo/contato.css';

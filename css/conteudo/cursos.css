@@ -1,0 +1,21 @@
+.curso {
+  background-color: #1F0950;
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 5px;
+}
+ .cursos .curso:hover {
+  background-image:linear-gradient(180deg, rgba(48, 27, 94, 0.5) 0%, #1F0950 100%);
+}
+
+.cursos-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0px 15px;
+  margin-bottom: 10px;
+  align-items: center;
+} 
+
+.cursos p {
+  grid-column: 2;
+}

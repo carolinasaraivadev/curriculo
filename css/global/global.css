@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+  background-color: #11052C;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-conteudo {
+  max-width: 930px;
+}
+
+h1, h2, h3, p {
+  color: #A4ABFD;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}  
+
+li {
+  list-style: none;
+}
+
+@media (max-width: 900px) {
+  .container-conteudo {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header .icon {
+    display: none;
+  }
+}

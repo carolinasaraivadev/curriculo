@@ -1,0 +1,24 @@
+.contato {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+}
+
+.contatos {
+  place-self: center;
+}
+
+.contato-foto {
+  place-self: center;
+}
+
+@media (max-width: 900px) {
+  .contato {
+    grid-template-columns: 1fr;
+    padding: 0px;
+  }
+  .contatos {
+    margin-bottom: 30px;
+  }
+}

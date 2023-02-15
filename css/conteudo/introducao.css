@@ -1,0 +1,24 @@
+.introducao {
+  margin-bottom: 30px;
+  padding: 40px;
+  text-align: justify;
+}
+
+.introducao-titulo {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+  .introducao {
+    padding-top: 20px;
+  }
+  .introducao {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .introducao {
+    text-align: justify;
+  }
+}

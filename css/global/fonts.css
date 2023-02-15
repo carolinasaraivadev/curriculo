@@ -1,0 +1,107 @@
+.font-1 {
+  /*Fonte do Nome*/
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5em;
+  line-height: 47px;
+}
+
+.font-1a {
+  /*Fonte do complemento do nome*/
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5em;
+  line-height: 28px;
+  color: #59e3c5;
+}
+
+.font-2 {
+  /*Fonte do Olá, mundo!*/
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5em;
+  line-height: 70px;
+  color: #59e3c5;
+}
+
+.font-p {
+  /*Fonte do Parágrafo Geral*/
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 31px;
+  color: #a4abfd;
+}
+
+.font-t-c {
+  /*Fonte do Título do Curso*/
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5em;
+  line-height: 42px;
+  color: #59e3c5;
+}
+
+.font-l-c {
+  /*Fonte da lista do Curso*/
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 31px;
+  color: #a4abfd;
+}
+
+.font-c-p {
+  /*Fonte do contato*/
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2em;
+  line-height: 31px;
+  color: #59e3c5;
+}
+
+.font-span {
+  color: #59e3c5;
+}
+
+.enfase {
+  color: #59e3c5;
+}
+
+.font-footer {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 31px;
+  color: #a4abfd;
+}
+
+@media (max-width: 900px) {
+  .font-1 {
+    /*Fonte do Nome*/
+    font-size: 2em;
+  }
+  .font-1a {
+    /*Fonte do complemento do nome*/
+    font-size: 1em;
+  }
+  .font-2 {
+    /*Fonte do Olá, mundo!*/
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 600px) {
+  .font-1 {
+    /*Fonte do Nome*/
+    line-height: 30px;
+  }
+}
